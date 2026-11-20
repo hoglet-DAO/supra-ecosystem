@@ -1,0 +1,11 @@
+[package]
+name = 'SupraVrf'
+version = '1.0.0'
+
+[dependencies.SupraFramework]
+git = 'https://github.com/Entropy-Foundation/aptos-core.git'
+subdir = 'aptos-move/framework/supra-framework'
+rev = 'dev'
+
+[addresses]
+supra_addr = "0x9672d46410f540b47d7e1f732640c776fa91ea1b909f871b9b2b7527b0ea90ae"
